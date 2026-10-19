@@ -1,16 +1,26 @@
-# React + Vite
+# Harjoitustyö
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Harjoitustyö on jäänyt keskeneräiseen tilaan.
+Tarkoituksena on tehdä simppeli blackjack peli
+Tarkoituksena on yrittää oppia pitämään pelin logiikkaa backendissä, jotta pelaaja ei voisi huijata.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Idea
+Haetaan toistaiseksi juuressa olevasta db.json nimetystä tiedostosta korttipakka.
+Pakan jokainen kortti on olio, jolla on kuva osoite(juuresta) ja numeerinen arvo.
+Ässän 1 vai 11 puuttuu
 
-## React Compiler
+## Frontend
+Frontendiä ei ole siistitty ja komponentit sekavia. 
+Html elementtejä ei ole järjestelty tai siistitty.
+Raha toiminto, voittajan määritys ja tulostus puuttuu
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##CSS
+Ehdin rajaamaan kuvia css ja nappaamaan phonebook harjoituksesta Notification.jsx, joka sisltää css.
 
-## Expanding the Oxlint configuration
+##Opittua
+Aiemmin yksinkertaiselta tuntuneet asiat eivät aina ole yhtä helppoja, kun  haluaa kontrolloida käyttäjän oikeuksia.
+Javascriptiä selainohjelmoinnissa käytettäessä pitää muistaa olla sekoittamatta html tapoihin (kuvien kanssa taistelu).
+Muista { ja (.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+
